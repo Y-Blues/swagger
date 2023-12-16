@@ -1,9 +1,11 @@
-#app="all"
+"""
+utilities that allow to generate swagger.json
+"""
 from pelix.ipopo.decorators import Instantiate, Requires, Provides, ComponentFactory, Property, BindField, UnbindField
 
-from ycappuccino_core.api import IActivityLogger
+from ycappuccino_api.core.api import IActivityLogger
 from ycappuccino_core.decorator_app import map_app_class, Layer
-from ycappuccino_endpoints.api import IHandlerEndpoint
+from ycappuccino_api.endpoints.api import IHandlerEndpoint
 from ycappuccino_endpoints.beans import EndpointResponse
 
 

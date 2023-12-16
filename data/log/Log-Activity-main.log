@@ -4852,3 +4852,301 @@ Traceback (most recent call last):
   File "E:\Documents\repositories\ycappuccino\hosts\ycappuccino_host\bundles\index_endpoint.py", line 100, in manage_clob
     with open(a_path) as f:
 FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Documents\\repositories\\ycappuccino\\hosts\\client/client//index.html'
+2023-12-15 16:15:49,118;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:15:49,118;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:15:49,605;INFO;MainThread;endpoints.py;endpoints;validate;(223);Endpoint validating
+2023-12-15 16:15:49,605;INFO;MainThread;endpoints.py;endpoints;validate;(232);Endpoint validated
+2023-12-15 16:16:37,448;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:16:37,448;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:16:37,662;INFO;MainThread;endpoints.py;endpoints;validate;(223);Endpoint validating
+2023-12-15 16:16:37,663;INFO;MainThread;endpoints.py;endpoints;validate;(232);Endpoint validated
+2023-12-15 16:17:16,079;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:17:16,079;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:17:16,248;INFO;MainThread;endpoints.py;endpoints;validate;(223);Endpoint validating
+2023-12-15 16:17:16,249;INFO;MainThread;endpoints.py;endpoints;validate;(232);Endpoint validated
+2023-12-15 16:18:03,951;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:18:03,951;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:18:04,086;INFO;MainThread;endpoints.py;endpoints;validate;(223);Endpoint validating
+2023-12-15 16:18:04,086;INFO;MainThread;endpoints.py;endpoints;validate;(232);Endpoint validated
+2023-12-15 16:26:28,180;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:26:28,180;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:26:28,431;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:26:28,431;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-15 16:51:10,015;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:51:10,015;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:51:10,144;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:51:10,144;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-15 16:51:50,364;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:51:50,365;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:51:50,500;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:51:50,501;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-15 16:54:16,434;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:54:16,435;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:54:16,585;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:54:16,585;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-15 16:57:05,498;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:57:05,498;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:57:05,643;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:57:05,643;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-15 16:57:37,845;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-15 16:57:37,846;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-15 16:57:37,939;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-15 16:57:37,939;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-15 16:57:37,977;INFO;MainThread;managers.py;managers;validate;(574);Manager default validating
+2023-12-15 16:57:37,977;INFO;MainThread;managers.py;managers;validate;(581);Manager default validated
+2023-12-15 16:57:37,977;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-15 16:57:37,978;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-15 16:57:37,978;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-15 16:57:37,978;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-15 16:57:38,221;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-15 16:57:38,277;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-15 16:57:38,285;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-15 16:57:38,285;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 13:59:35,881;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 13:59:35,882;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 13:59:36,095;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 13:59:36,095;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 13:59:36,195;INFO;MainThread;managers.py;managers;validate;(574);Manager default validating
+2023-12-16 13:59:36,196;INFO;MainThread;managers.py;managers;validate;(581);Manager default validated
+2023-12-16 13:59:36,196;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 13:59:36,196;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 13:59:36,196;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 13:59:36,196;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 13:59:36,471;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 13:59:36,540;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 13:59:36,572;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 13:59:36,572;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:03:13,125;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 14:03:13,125;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 14:03:13,195;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 14:03:13,195;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 14:03:13,228;INFO;MainThread;managers.py;managers;validate;(574);Manager default validating
+2023-12-16 14:03:13,228;INFO;MainThread;managers.py;managers;validate;(581);Manager default validated
+2023-12-16 14:03:13,228;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 14:03:13,228;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 14:03:13,228;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 14:03:13,228;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 14:03:13,368;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 14:03:13,374;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 14:03:13,383;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 14:03:13,383;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:03:13,458;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 14:03:13,458;INFO;MainThread;managers.py;managers;create_proxy_manager;(558);create proxy host
+2023-12-16 14:03:59,636;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 14:03:59,637;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 14:03:59,714;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 14:03:59,714;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 14:03:59,750;INFO;MainThread;managers.py;managers;validate;(574);Manager default validating
+2023-12-16 14:03:59,750;INFO;MainThread;managers.py;managers;validate;(581);Manager default validated
+2023-12-16 14:03:59,750;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 14:03:59,750;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 14:03:59,751;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 14:03:59,751;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 14:03:59,903;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 14:03:59,909;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 14:03:59,919;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 14:03:59,919;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:03:59,954;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 14:03:59,955;INFO;MainThread;managers.py;managers;create_proxy_manager;(558);create proxy host
+2023-12-16 14:15:51,348;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 14:15:51,348;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 14:15:51,421;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 14:15:51,421;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 14:15:51,462;INFO;MainThread;managers.py;managers;validate;(575);Manager default validating
+2023-12-16 14:15:51,462;INFO;MainThread;managers.py;managers;validate;(582);Manager default validated
+2023-12-16 14:15:51,618;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 14:15:51,624;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 14:15:51,633;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 14:15:51,633;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:45:51,130;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 14:45:51,131;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 14:45:51,201;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 14:45:51,201;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 14:45:51,242;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 14:45:51,242;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 14:45:51,242;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 14:45:51,242;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 14:45:51,243;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 14:45:51,243;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 14:45:51,390;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 14:45:51,394;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 14:45:51,404;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 14:45:51,404;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:45:51,436;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 14:45:51,436;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 14:45:51,437;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 14:45:51,437;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 14:45:51,437;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 14:45:51,437;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 14:45:51,437;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 14:45:51,438;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 14:45:51,438;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 14:45:51,438;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 14:45:51,438;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 14:45:51,438;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 14:45:51,438;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 14:45:51,439;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
+2023-12-16 14:46:14,953;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 14:46:14,954;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 14:46:15,032;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 14:46:15,033;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 14:46:15,073;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 14:46:15,073;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 14:46:15,074;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 14:46:15,074;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 14:46:15,074;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 14:46:15,074;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 14:46:15,236;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 14:46:15,242;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 14:46:15,252;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 14:46:15,252;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 14:46:15,285;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 14:46:15,286;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 14:46:15,286;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 14:46:15,286;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 14:46:15,286;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 14:46:15,286;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 14:46:15,286;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 14:46:15,287;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 14:46:15,287;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 14:46:15,287;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 14:46:15,287;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 14:46:15,287;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 14:46:15,288;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 14:46:15,288;INFO;MainThread;remote_server.py;remote_server;validate;(129);RemoteServer validating
+2023-12-16 14:46:15,288;INFO;MainThread;remote_server.py;remote_server;validate;(134);RemoteServer validated
+2023-12-16 14:46:15,289;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
+2023-12-16 15:16:45,516;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 15:16:45,516;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 15:16:45,595;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 15:16:45,596;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 15:16:45,635;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 15:16:45,636;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 15:16:45,636;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 15:16:45,636;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 15:16:45,636;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 15:16:45,636;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 15:16:45,821;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 15:16:45,827;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 15:16:45,837;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 15:16:45,837;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 15:16:45,868;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 15:16:45,869;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 15:16:45,869;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 15:16:45,869;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 15:16:45,869;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 15:16:45,870;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 15:16:45,870;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 15:16:45,870;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 15:16:45,871;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 15:16:45,871;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 15:16:45,871;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 15:16:45,871;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 15:16:45,872;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 15:16:45,872;INFO;MainThread;remote_server.py;remote_server;validate;(129);RemoteServer validating
+2023-12-16 15:16:45,872;INFO;MainThread;remote_server.py;remote_server;validate;(134);RemoteServer validated
+2023-12-16 15:16:45,873;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
+2023-12-16 15:21:55,913;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 15:21:55,913;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 15:21:55,998;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 15:21:55,998;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 15:21:56,035;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 15:21:56,035;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 15:21:56,035;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 15:21:56,035;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 15:21:56,035;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 15:21:56,035;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 15:21:56,185;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 15:21:56,190;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 15:21:56,197;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 15:21:56,197;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 15:21:56,203;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(365);HandlerEndpointStorage validating
+2023-12-16 15:21:56,203;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(374);HandlerEndpointStorage validated
+2023-12-16 15:21:56,211;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(201);HandlerEndpointService validating
+2023-12-16 15:21:56,211;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(203);HandlerEndpointStorage validated
+2023-12-16 15:21:56,229;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 15:21:56,229;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 15:21:56,229;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 15:21:56,229;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 15:21:56,230;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 15:21:56,230;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 15:21:56,230;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 15:21:56,230;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 15:21:56,230;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 15:21:56,231;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 15:21:56,231;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 15:21:56,231;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 15:21:56,231;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 15:21:56,231;INFO;MainThread;remote_server.py;remote_server;validate;(129);RemoteServer validating
+2023-12-16 15:21:56,232;INFO;MainThread;remote_server.py;remote_server;validate;(134);RemoteServer validated
+2023-12-16 15:21:56,232;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
+2023-12-16 15:25:40,990;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 15:25:40,990;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 15:25:41,063;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 15:25:41,063;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 15:25:41,097;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 15:25:41,097;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 15:25:41,097;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 15:25:41,097;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 15:25:41,097;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 15:25:41,098;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 15:25:41,243;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 15:25:41,250;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 15:25:41,258;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 15:25:41,258;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 15:25:41,266;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(365);HandlerEndpointStorage validating
+2023-12-16 15:25:41,266;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(374);HandlerEndpointStorage validated
+2023-12-16 15:25:41,272;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(201);HandlerEndpointService validating
+2023-12-16 15:25:41,273;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(203);HandlerEndpointStorage validated
+2023-12-16 15:25:41,295;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 15:25:41,295;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 15:25:41,296;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 15:25:41,296;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 15:25:41,296;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 15:25:41,296;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 15:25:41,297;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 15:25:41,297;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 15:25:41,297;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 15:25:41,297;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 15:25:41,297;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 15:25:41,298;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 15:25:41,298;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 15:25:41,298;INFO;MainThread;remote_server.py;remote_server;validate;(129);RemoteServer validating
+2023-12-16 15:25:41,299;INFO;MainThread;remote_server.py;remote_server;validate;(134);RemoteServer validated
+2023-12-16 15:25:41,299;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
+2023-12-16 15:26:08,617;INFO;MainThread;swagger.py;swagger;validate;(80);HostSwagger validating
+2023-12-16 15:26:08,617;INFO;MainThread;swagger.py;swagger;validate;(83);HostSwagger validated
+2023-12-16 15:26:08,639;INFO;MainThread;index_endpoint.py;index_endpoint;validate;(332);validating...
+2023-12-16 15:26:08,640;INFO;MainThread;index_endpoint.py;index_endpoint;validate;(333);validated
+2023-12-16 15:26:08,707;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(94);RemoteClientFactory validating
+2023-12-16 15:26:08,707;INFO;MainThread;remote_client_factory.py;remote_client_factory;validate;(97);RemoteClientFactory validated
+2023-12-16 15:26:08,753;INFO;MainThread;managers.py;managers;validate;(576);Manager default validating
+2023-12-16 15:26:08,753;INFO;MainThread;managers.py;managers;validate;(583);Manager default validated
+2023-12-16 15:26:08,753;INFO;MainThread;manager_upload.py;manager_upload;validate;(132);Manager upload validating
+2023-12-16 15:26:08,753;INFO;MainThread;manager_upload.py;manager_upload;validate;(139);Manager upload validated
+2023-12-16 15:26:08,753;INFO;MainThread;item_manager.py;item_manager;validate;(131);Manager validating
+2023-12-16 15:26:08,754;INFO;MainThread;item_manager.py;item_manager;validate;(139);Manager validated
+2023-12-16 15:26:08,919;INFO;MainThread;storage.py;storage;validate;(171);MongoStorage validating
+2023-12-16 15:26:08,924;INFO;MainThread;storage.py;storage;validate;(185);MongoStorage validated
+2023-12-16 15:26:08,930;INFO;MainThread;endpoints.py;endpoints;validate;(222);Endpoint validating
+2023-12-16 15:26:08,931;INFO;MainThread;endpoints.py;endpoints;validate;(231);Endpoint validated
+2023-12-16 15:26:08,936;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(365);HandlerEndpointStorage validating
+2023-12-16 15:26:08,936;INFO;MainThread;endpoint_storage.py;endpoint_storage;validate;(374);HandlerEndpointStorage validated
+2023-12-16 15:26:08,942;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(201);HandlerEndpointService validating
+2023-12-16 15:26:08,942;INFO;MainThread;endpoint_service.py;endpoint_service;validate;(203);HandlerEndpointStorage validated
+2023-12-16 15:26:08,962;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item host
+2023-12-16 15:26:08,963;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy host
+2023-12-16 15:26:08,963;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager host validating
+2023-12-16 15:26:08,963;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager host validated
+2023-12-16 15:26:08,963;INFO;MainThread;bootstrap.py;bootstrap;validate;(65);BootStrapClientPath validating
+2023-12-16 15:26:08,964;INFO;MainThread;bootstrap.py;bootstrap;validate;(72);BootStrapClientPath validated
+2023-12-16 15:26:08,964;INFO;MainThread;host_factory.py;host_factory;validate;(67);HostFactory validating
+2023-12-16 15:26:08,964;INFO;MainThread;host_factory.py;host_factory;validate;(70);HostFactory validated
+2023-12-16 15:26:08,965;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy host
+2023-12-16 15:26:08,965;INFO;MainThread;item_manager.py;item_manager;load_item;(121);add item remoteServer
+2023-12-16 15:26:08,965;INFO;MainThread;managers.py;managers;create_proxy_manager;(560);create proxy remoteServer
+2023-12-16 15:26:08,965;INFO;MainThread;managers.py;managers;validate;(609);ProxyManager remoteServer validating
+2023-12-16 15:26:08,965;INFO;MainThread;managers.py;managers;validate;(617);ProxyManager remoteServer validated
+2023-12-16 15:26:08,966;INFO;MainThread;remote_server.py;remote_server;validate;(129);RemoteServer validating
+2023-12-16 15:26:08,968;INFO;MainThread;remote_server.py;remote_server;validate;(134);RemoteServer validated
+2023-12-16 15:26:08,968;INFO;MainThread;managers.py;managers;create_proxy_manager;(566);end create proxy remoteServer
