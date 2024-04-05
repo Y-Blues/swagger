@@ -6,6 +6,8 @@ from ycappuccino_api.host.api import IHost
 
 import logging, os
 from pelix.ipopo.decorators import ComponentFactory, Requires, Validate, Invalidate, Provides, Instantiate
+
+from ycappuccino_api.proxy.api import YCappuccinoRemote
 from ycappuccino_core.decorator_app import Layer
 
 import inspect
@@ -16,8 +18,8 @@ _logger = logging.getLogger(__name__)
 
 
 @ComponentFactory('HostSwagger-Factory')
-@Provides(specifications=[IHost.name])
-@Requires("_log", IActivityLogger.name, spec_filter="'(name=main)'")
+@Provides(specifications=[YCappuccinoRemote.__name__, IHost.__name__])
+@Requires("_log", IActivityLogger.__name__, spec_filter="'(name=main)'")
 @Instantiate("HostSwagger")
 @Layer(name="ycappuccino_swagger")
 class HostSwagger(IHost):

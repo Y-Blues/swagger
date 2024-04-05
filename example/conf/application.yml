@@ -1,0 +1,20 @@
+---
+models.app:
+  ycappuccino_host: true
+  ycappuccino_service_comm_storage: true
+layers:
+  ycappuccino_swagger:
+    active: true
+  ycappuccino_service_comm:
+    active: true
+    host: localhost
+    port: 0
+    scheme: http
+  ycappuccino_service_comm_storage:
+    active: true
+    host: localhost
+    port: 27017
+    type: mongo
+    db_name: remote_storage
+name: swagger
+bundle_prefix: ycappuccino

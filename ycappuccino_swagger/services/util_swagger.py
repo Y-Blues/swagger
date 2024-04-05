@@ -4,17 +4,18 @@ utilities that allow to generate swagger.json
 from pelix.ipopo.decorators import Instantiate, Requires, Provides, ComponentFactory, Property, BindField, UnbindField
 
 from ycappuccino_api.core.api import IActivityLogger
+from ycappuccino_api.proxy.api import YCappuccinoRemote
 from ycappuccino_core.decorator_app import map_app_class, Layer
 from ycappuccino_api.endpoints.api import IHandlerEndpoint
 from ycappuccino_endpoints.beans import EndpointResponse
 
 
 @ComponentFactory('UtilSwagger-Factory')
-@Provides(specifications=[IHandlerEndpoint.name])
-@Requires("_log", IActivityLogger.name, spec_filter="'(name=main)'")
+@Provides(specifications=[YCappuccinoRemote.__name__, IHandlerEndpoint.__name__])
+@Requires("_log", IActivityLogger.__name__, spec_filter="'(name=main)'")
 @Property('_name', "name", "swagger")
 @Instantiate("UtilSwagger")
-@Requires("_handler_endpoints", specification=IHandlerEndpoint.name, aggregate=True, optional=True)
+@Requires("_handler_endpoints", specification=IHandlerEndpoint.__name__, aggregate=True, optional=True)
 @Layer(name="ycappuccino_swagger")
 class UtilSwagger(IHandlerEndpoint):
 
