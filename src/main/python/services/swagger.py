@@ -1,14 +1,22 @@
 """
 IHost swagger component that provide swagger api
 """
+
 from ycappuccino_api.core.api import IActivityLogger
 from ycappuccino_api.host.api import IHost
 
 import logging, os
-from pelix.ipopo.decorators import ComponentFactory, Requires, Validate, Invalidate, Provides, Instantiate
+from pelix.ipopo.decorators import (
+    ComponentFactory,
+    Requires,
+    Validate,
+    Invalidate,
+    Provides,
+    Instantiate,
+)
 
-from ycappuccino_api.proxy.api import YCappuccinoRemote
-from ycappuccino_core.decorator_app import Layer
+from src.main.python.proxy import YCappuccinoRemote
+from src.main.python.decorator_app import Layer
 
 import inspect
 import base64
@@ -17,7 +25,7 @@ import base64
 _logger = logging.getLogger(__name__)
 
 
-@ComponentFactory('HostSwagger-Factory')
+@ComponentFactory("HostSwagger-Factory")
 @Provides(specifications=[YCappuccinoRemote.__name__, IHost.__name__])
 @Requires("_log", IActivityLogger.__name__, spec_filter="'(name=main)'")
 @Instantiate("HostSwagger")
@@ -25,19 +33,21 @@ _logger = logging.getLogger(__name__)
 class HostSwagger(IHost):
 
     def __init__(self):
-        super(IHost, self).__init__();
-        self.path_core = inspect.getmodule(self).__file__.replace("services{0}swagger.py".format(os.path.sep), "")
-        self._log =None
+        super(IHost, self).__init__()
+        self.path_core = inspect.getmodule(self).__file__.replace(
+            "services{0}swagger.py".format(os.path.sep), ""
+        )
+        self._log = None
         self._secure = False
         self._user = None
-        self._pass =None
+        self._pass = None
         self._id = "/swagger"
         self._priority = 0
         self._subpath = "swagger"
         self._config = None
 
     def get_path(self):
-        w_path =[self.path_core+self._subpath]
+        w_path = [self.path_core + self._subpath]
 
         return w_path
 
@@ -61,14 +71,17 @@ class HostSwagger(IHost):
 
     def is_core(self):
         return True
+
     def load_configuration(self):
-        if self._secure :
-            self._user = self._config.get(self._id+".login", "client_pyscript_core")
-            self._pass = self._config.get(self._id+".password", "1234")
+        if self._secure:
+            self._user = self._config.get(self._id + ".login", "client_pyscript_core")
+            self._pass = self._config.get(self._id + ".password", "1234")
 
     def check_auth(self, a_authorization):
         if a_authorization is not None and "Basic " in a_authorization:
-            w_decode = base64.standard_b64decode(a_authorization.replace("Basic ", "")).decode('ascii')
+            w_decode = base64.standard_b64decode(
+                a_authorization.replace("Basic ", "")
+            ).decode("ascii")
             if ":" in w_decode:
                 w_user = w_decode.split(":")[0]
                 w_pass = w_decode.split(":")[1]
