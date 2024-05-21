@@ -12,11 +12,14 @@ from pelix.ipopo.decorators import (
     UnbindField,
 )
 
-from ycappuccino_api.core.api import IActivityLogger
-from src.main.python.proxy import YCappuccinoRemote
-from src.main.python.decorator_app import map_app_class, Layer
-from ycappuccino_api.endpoints.api import IHandlerEndpoint
-from src.main.python.beans import EndpointResponse
+from ycappuccino_api.core import IActivityLogger
+from ycappuccino_api.endpoints import IHandlerEndpoint
+
+from ycappuccino.api.endpoints import EndpointResponse
+from ycappuccino.api.proxy import YCappuccinoRemote
+from ycappuccino.core.decorator_app import Layer
+
+from ycappuccino.core.framework import Framework
 
 
 @ComponentFactory("UtilSwagger-Factory")
@@ -82,7 +85,11 @@ class UtilSwagger(IHandlerEndpoint):
         pass
 
     def get_swagger_description_tag(self, a_item):
-        return map_app_class[a_item["_class"]] + " - " + a_item["plural"]
+        return (
+            Framework.get_instance().map_app_class[a_item["_class"]]
+            + " - "
+            + a_item["plural"]
+        )
 
     def get_swagger_description_service_tag(self, a_service):
         return "$service " + a_service.get_name()

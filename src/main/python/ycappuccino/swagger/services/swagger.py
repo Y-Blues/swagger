@@ -2,8 +2,8 @@
 IHost swagger component that provide swagger api
 """
 
-from ycappuccino_api.core.api import IActivityLogger
-from ycappuccino_api.host.api import IHost
+from ycappuccino_api.core import IActivityLogger
+from ycappuccino_api.host import IHost
 
 import logging, os
 from pelix.ipopo.decorators import (
@@ -15,12 +15,12 @@ from pelix.ipopo.decorators import (
     Instantiate,
 )
 
-from src.main.python.proxy import YCappuccinoRemote
-from src.main.python.decorator_app import Layer
 
 import inspect
 import base64
 
+from ycappuccino.api.proxy import YCappuccinoRemote
+from ycappuccino.core.decorator_app import Layer
 
 _logger = logging.getLogger(__name__)
 
